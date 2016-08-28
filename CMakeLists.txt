@@ -13,7 +13,7 @@ Include_Directories(
 File (SOURCES 1.cpp)
 File (GLOB WXFAKE_SOURCES wxFake/*.cpp)
 
-Add_Executable (meandmyshadow ${SOURCES} ${WXFAKE_SOURCES})
+Add_Executable (wxTest ${SOURCES} ${WXFAKE_SOURCES})
 
 Target_Link_Libraries (
 	wxTest
